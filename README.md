@@ -9,7 +9,8 @@ In our project we aimed to explore the functionality of the library PEFT (Parame
 ## Results
 ### Tables (Project_peft_tables.ipynb)
 
-<p align="center"><img src="images/loss_tables_PT.png" width="400" /></p>
+<p align="left"><img src="images/loss_tables_lora.png" width="400" /></p>
+<p align="right"><img src="images/metrics_tables_lora.png" width="400" /></p>
 
 
 ## Conclusion
