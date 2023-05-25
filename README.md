@@ -8,12 +8,12 @@ In our project we aimed to explore the functionality of the library PEFT (Parame
 
 ## Results
 ### Tables (Project_peft_tables.ipynb)
-Below you can see the results of utilizing LoRA
+* Below you can see the results of utilizing LoRA
 <p align="center"><img src="images/loss_tables_lora.png" width="400" /> <img src="images/metrics_tables_lora.png" width="400" /> </p>
 
 **Example of the model output:** 'Bulgaria : Ratio of government expenditure to gross domestic product ( GDP ) from 2015 to 2025 Ghana Ghana Ghana Ghana Ghana Ghana Bulgaria ... Bulgaria Rat Rat Rat India India India India India India India India India India'
 
-'...' denote 'Bulgaria' repeated a lot of times. 
+'...' denotes 'Bulgaria' repeated a lot of times. 
 
 **Corresponding target:** 'France : Ratio of government expenditure to gross domestic product ( GDP ) from 2015 to 2025'
 
