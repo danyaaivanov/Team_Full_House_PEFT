@@ -10,7 +10,7 @@ In our project we aimed to explore the functionality of the library PEFT (Parame
 ### Tables (Project_peft_tables.ipynb)
 For this part we used the tables from HW 2, preprocessed into strings. The goal was to summarize their content (targets were given). Here is how the data looked like:
 
-<p align="center"><img src="images/tables_data.png" width="400" /> </p>
+<p align="center"><img src="images/tables_data.png" width="600" /> </p>
 
 * Below you can see the results of utilizing LoRA on T5 model
 <p align="center"><img src="images/loss_tables_lora.png" width="400" /> <img src="images/metrics_tables_lora.png" width="400" /> </p>
