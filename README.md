@@ -45,3 +45,9 @@ As in case of LoRA we see somewhat close to the ground truth again with uncanny 
 
 ## Conclusion
 * LoRA and Prefix Tuning on T5 model have proven themselves to give promising results on the table description task possibly leading to great performance, while AdaLoRA method applied to BART model requires further investigation.
+
+### Images (Project_peft_image.ipynb)
+
+<p align="center"><img src="images/image_data.png" width="600" /> </p>
+
+<p align="center"><img src="images/image_results.png" width="600" /> </p>
