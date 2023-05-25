@@ -8,9 +8,11 @@ In our project we aimed to explore the functionality of the library PEFT (Parame
 
 ## Results
 ### Tables (Project_peft_tables.ipynb)
-#### LoRA
+Below you can see the results of utilizing LoRA
 <p align="center"><img src="images/loss_tables_lora.png" width="400" /> <img src="images/metrics_tables_lora.png" width="400" /> </p>
-#### AdaLoRA
+Here are the results of making use of AdaLoRA
 <p align="center"><img src="images/loss_tables_adalora.png" width="400" /> <img src="images/metrics_tables_adalora.png" width="400" /> </p>
+Finally, that is what we have got for Prefix Tuning
+<p align="center"><img src="images/loss_tables_PT.png" width="400" /> <img src="images/metrics_tables_PT.png" width="400" /> </p>
 
 ## Conclusion
