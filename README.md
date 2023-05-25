@@ -19,9 +19,24 @@ In our project we aimed to explore the functionality of the library PEFT (Parame
 
 The strings nearly coincide before inadequate repetitions.
 
-Here are the results of making use of AdaLoRA
+* Here are the results of making use of AdaLoRA
 <p align="center"><img src="images/loss_tables_adalora.png" width="400" /> <img src="images/metrics_tables_adalora.png" width="400" /> </p>
-Finally, that is what we have got for Prefix Tuning
+
+**Example of the model output:** 'both annuala well Empires iPad ganzberen special have hisatings lastX annualenen well well well well well well wellsssssssssssssssssssssssssssssssssssssssssssXsssssssssssssssssssssssssssssss semi semi semis semi much much much much much much much,,,,,,,,,,,,'
+
+**Corresponding target:** 'France : Ratio of government expenditure to gross domestic product ( GDP ) from 2015 to 2025'
+
+That is a complete fail.
+
+* Finally, that is what we have got for Prefix Tuning
 <p align="center"><img src="images/loss_tables_PT.png" width="400" /> <img src="images/metrics_tables_PT.png" width="400" /> </p>
+
+**Example of the model output:** 'Rat : Ratio of government expenditure to GDP domestic product ( GDP ) from 2015 to 2025 ( Rat ... Rat'
+
+'...' denotes 'Rat' repeated a lot of times. 
+
+**Corresponding target:** 'France : Ratio of government expenditure to gross domestic product ( GDP ) from 2015 to 2025'
+
+As in case of LoRA we see somewhat close to the ground truth again with uncanny repetitions.
 
 ## Conclusion
