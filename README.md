@@ -2,13 +2,13 @@
 
 ## Problem description
 
-Finetuning of Large Language models is often prohibitively costly. Recently there have been developed a number of methods that only fine-tune a small number of (extra) model parameters, thereby greatly decreasing the computational and storage costs. Recent State-of-the-Art techniques achieve performance comparable to that of full fine-tuning.
+Finetuning Large Language models is often prohibitively costly. Recently there have been developed a number of methods that only fine-tune a small number of (extra) model parameters, thereby greatly decreasing the computational and storage costs. Recent State-of-the-Art techniques achieve performance comparable to that of full fine-tuning.
 
 In our project we aimed to explore the functionality of the library PEFT (Parameter-Efficient Fine-Tuning). It encompasses many SOTA methods and allows for a convenient implementation for any HuggngFace model.
 
 ## Results
 ### Tables (Project_peft_tables.ipynb)
-For this part we used the tables from HW 2, preprocessed them into strings and the goal was to summarize their content (targets were given).
+For this part we used the tables from HW 2, preprocessed into strings. The goal was to summarize their content (targets were given).
 * Below you can see the results of utilizing LoRA on T5 model
 <p align="center"><img src="images/loss_tables_lora.png" width="400" /> <img src="images/metrics_tables_lora.png" width="400" /> </p>
 
@@ -27,7 +27,7 @@ The strings nearly coincide before inadequate repetitions.
 
 **Corresponding target:** 'France : Ratio of government expenditure to gross domestic product ( GDP ) from 2015 to 2025'
 
-That is a complete fail.
+This is a complete fail.
 
 * Finally, that is what we have got for Prefix Tuning on T5 model
 <p align="center"><img src="images/loss_tables_PT.png" width="400" /> <img src="images/metrics_tables_PT.png" width="400" /> </p>
