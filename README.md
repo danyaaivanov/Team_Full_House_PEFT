@@ -10,6 +10,12 @@ In our project we aimed to explore the functionality of the library PEFT (Parame
 ### Tables (Project_peft_tables.ipynb)
 Below you can see the results of utilizing LoRA
 <p align="center"><img src="images/loss_tables_lora.png" width="400" /> <img src="images/metrics_tables_lora.png" width="400" /> </p>
+
+Example of the model output: 'Bulgaria : Ratio of government expenditure to gross domestic product ( GDP ) from 2015 to 2025 Ghana Ghana Ghana Ghana Ghana Ghana Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Bulgaria Rat Rat Rat India India India India India India India India India India'
+Corresponding target: 'France : Ratio of government expenditure to gross domestic product ( GDP ) from 2015 to 2025'
+
+The strings nearly coincide before inadequate repetitions.
+
 Here are the results of making use of AdaLoRA
 <p align="center"><img src="images/loss_tables_adalora.png" width="400" /> <img src="images/metrics_tables_adalora.png" width="400" /> </p>
 Finally, that is what we have got for Prefix Tuning
