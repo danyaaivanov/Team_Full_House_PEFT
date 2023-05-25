@@ -7,6 +7,6 @@ Finetuning of Large Language models is often prohibitively costly. Recently ther
 In our project we aimed to explore the functionality of the library PEFT (Parameter-Efficient Fine-Tuning). It encompasses many SOTA methods and allows for a convenient implementation for any HuggngFace model.
 
 ## Results
-### Tables
+### Tables (Project_peft_tables.ipynb)
 
 ## Conclusion
