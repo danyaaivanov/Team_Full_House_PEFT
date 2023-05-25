@@ -8,7 +8,7 @@ In our project we aimed to explore the functionality of the library PEFT (Parame
 
 ## Results
 ### Tables (Project_peft_tables.ipynb)
-![ssvd_moc.png](/images/loss tables lora.png)
+![alt text](/images/loss tables lora.png)
 
 
 ## Conclusion
