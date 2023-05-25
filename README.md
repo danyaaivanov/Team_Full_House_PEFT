@@ -48,6 +48,10 @@ As in case of LoRA we see somewhat close to the ground truth again with uncanny 
 
 ### Images (Project_peft_image.ipynb)
 
+Dataset Chest X-ray Pneumonia for classify normal and pneumonia lungs.
+
 <p align="center"><img src="images/image_data.png" width="600" /> </p>
+
+LoRA allows to apply weight updates to different layers (query, value, key). In tutorial authors use query + value, in our example the best result reached in query + key. We also show a small increase in the accuracy of fine-tuning model from the rank of approximation.
 
 <p align="center"><img src="images/image_results.png" width="600" /> </p>
