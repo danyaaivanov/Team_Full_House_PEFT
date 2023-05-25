@@ -8,7 +8,8 @@ In our project we aimed to explore the functionality of the library PEFT (Parame
 
 ## Results
 ### Tables (Project_peft_tables.ipynb)
-* Below you can see the results of utilizing LoRA
+For this part we used the tables from HW 2, preprocessed them into strings and the goal was to summarize their content (targets were given).
+* Below you can see the results of utilizing LoRA on T5 model
 <p align="center"><img src="images/loss_tables_lora.png" width="400" /> <img src="images/metrics_tables_lora.png" width="400" /> </p>
 
 **Example of the model output:** 'Bulgaria : Ratio of government expenditure to gross domestic product ( GDP ) from 2015 to 2025 Ghana Ghana Ghana Ghana Ghana Ghana Bulgaria ... Bulgaria Rat Rat Rat India India India India India India India India India India'
@@ -19,7 +20,7 @@ In our project we aimed to explore the functionality of the library PEFT (Parame
 
 The strings nearly coincide before inadequate repetitions.
 
-* Here are the results of making use of AdaLoRA
+* Here are the results of making use of AdaLoRA on BART model
 <p align="center"><img src="images/loss_tables_adalora.png" width="400" /> <img src="images/metrics_tables_adalora.png" width="400" /> </p>
 
 **Example of the model output:** 'both annuala well Empires iPad ganzberen special have hisatings lastX annualenen well well well well well well wellsssssssssssssssssssssssssssssssssssssssssssXsssssssssssssssssssssssssssssss semi semi semis semi much much much much much much much,,,,,,,,,,,,'
@@ -28,7 +29,7 @@ The strings nearly coincide before inadequate repetitions.
 
 That is a complete fail.
 
-* Finally, that is what we have got for Prefix Tuning
+* Finally, that is what we have got for Prefix Tuning on T5 model
 <p align="center"><img src="images/loss_tables_PT.png" width="400" /> <img src="images/metrics_tables_PT.png" width="400" /> </p>
 
 **Example of the model output:** 'Rat : Ratio of government expenditure to GDP domestic product ( GDP ) from 2015 to 2025 ( Rat ... Rat'
