@@ -57,9 +57,9 @@ LoRA allows to apply weight updates to different layers (query, value, key). In 
 
 ### Sequences (Project_peft_seq2seq.ipynb)
 
-<p align="center"><img src="images/image_results.png" width="600" /> </p>
+<p align="center"><img src="images/accuracy_sequences.png" width="600" /> </p>
 
-<p align="center"><img src="images/image_results.png" width="600" /> </p>
+<p align="center"><img src="images/losses_finetune_sequences.png" width="600" /> </p>
 
 ## Conclusion
 * LoRA and Prefix Tuning on T5 model have proven themselves to give promising results on the table description task possibly leading to great performance, while AdaLoRA method applied to BART model requires further investigation
