@@ -57,6 +57,13 @@ LoRA allows to apply weight updates to different layers (query, value, key). In 
 
 ### Sequences (Project_peft_seq2seq.ipynb)
 
+Total of 1.2B parameters. Total tuned parameters 0.2% (2.36M).
+Pretrained originally on xP3 dataset
+Fine-tuned on Financial Phrase Bank dataset. 
+With just two epochs accuracy reached 90%+ levels and continued to climb higher tending to 10-th epoch.
+Total fine-tuning and inference time was about 15 minutes.
+
+
 <p align="center"><img src="images/accuracy_sequences.png" width="600" /> </p>
 
 <p align="center"><img src="images/losses_finetune_sequences.png" width="600" /> </p>
