@@ -44,7 +44,9 @@ This is a complete fail.
 As in case of LoRA we see somewhat close to the ground truth again with uncanny repetitions.
 
 ## Conclusion
-* LoRA and Prefix Tuning on T5 model have proven themselves to give promising results on the table description task possibly leading to great performance, while AdaLoRA method applied to BART model requires further investigation.
+* LoRA and Prefix Tuning on T5 model have proven themselves to give promising results on the table description task possibly leading to great performance, while AdaLoRA method applied to BART model requires further investigation
+* For image classification, LoRA manages to achieve good accuracy with around 2.5% of parameters, getting 90%+ accuracy on new dataset from the second epoch.
+* LoRA achieved peak accuracy from just very few epochs of fine-tuning while manipulating only a small fracture of less than 0.5% of parameters.
 
 ### Images (Project_peft_image.ipynb)
 
