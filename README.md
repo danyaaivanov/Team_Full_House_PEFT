@@ -43,10 +43,7 @@ This is a complete fail.
 
 As in case of LoRA we see somewhat close to the ground truth again with uncanny repetitions.
 
-## Conclusion
-* LoRA and Prefix Tuning on T5 model have proven themselves to give promising results on the table description task possibly leading to great performance, while AdaLoRA method applied to BART model requires further investigation
-* For image classification, LoRA manages to achieve good accuracy with around 2.5% of parameters, getting 90%+ accuracy on new dataset from the second epoch.
-* LoRA achieved peak accuracy from just very few epochs of fine-tuning while manipulating only a small fracture of less than 0.5% of parameters.
+
 
 ### Images (Project_peft_image.ipynb)
 
@@ -57,3 +54,14 @@ Dataset Chest X-ray Pneumonia for classify normal and pneumonia lungs.
 LoRA allows to apply weight updates to different layers (query, value, key). In tutorial authors use query + value, in our example the best result reached in query + key. We also show a small increase in the accuracy of fine-tuning model from the rank of approximation.
 
 <p align="center"><img src="images/image_results.png" width="600" /> </p>
+
+### Sequences (Project_peft_seq2seq.ipynb)
+
+<p align="center"><img src="images/image_results.png" width="600" /> </p>
+
+<p align="center"><img src="images/image_results.png" width="600" /> </p>
+
+## Conclusion
+* LoRA and Prefix Tuning on T5 model have proven themselves to give promising results on the table description task possibly leading to great performance, while AdaLoRA method applied to BART model requires further investigation
+* For image classification, LoRA manages to achieve good accuracy with around 2.5% of parameters, getting 90%+ accuracy on new dataset from the second epoch.
+* LoRA achieved peak accuracy from just very few epochs of fine-tuning while manipulating only a small fracture of less than 0.5% of parameters.
