@@ -2,44 +2,44 @@
 losses after epoch = 0
 f{epoch=}: {train_ppl=} {train_epoch_loss=} {eval_ppl=} {eval_epoch_loss=}
 validation accuracy: 
-accuracy=59.471365638766514 % on the evaluation dataset after epoch epoch = 0
+accuracy=94.27312775330397 % on the evaluation dataset after epoch epoch = 0
 losses after epoch = 1
 f{epoch=}: {train_ppl=} {train_epoch_loss=} {eval_ppl=} {eval_epoch_loss=}
 validation accuracy: 
-accuracy=59.471365638766514 % on the evaluation dataset after epoch epoch = 1
+accuracy=96.0352422907489 % on the evaluation dataset after epoch epoch = 1
 losses after epoch = 2
 f{epoch=}: {train_ppl=} {train_epoch_loss=} {eval_ppl=} {eval_epoch_loss=}
 validation accuracy: 
-accuracy=59.471365638766514 % on the evaluation dataset after epoch epoch = 2
+accuracy=95.59471365638767 % on the evaluation dataset after epoch epoch = 2
 losses after epoch = 3
 f{epoch=}: {train_ppl=} {train_epoch_loss=} {eval_ppl=} {eval_epoch_loss=}
 validation accuracy: 
-accuracy=68.28193832599119 % on the evaluation dataset after epoch epoch = 3
+accuracy=94.58149779735683 % on the evaluation dataset after epoch epoch = 3
 losses after epoch = 4
 f{epoch=}: {train_ppl=} {train_epoch_loss=} {eval_ppl=} {eval_epoch_loss=}
 validation accuracy: 
-accuracy=83.70044052863436 % on the evaluation dataset after epoch epoch = 4
+accuracy=91.18942731277532 % on the evaluation dataset after epoch epoch = 4
 losses after epoch = 5
 f{epoch=}: {train_ppl=} {train_epoch_loss=} {eval_ppl=} {eval_epoch_loss=}
 validation accuracy: 
-accuracy=84.58149779735683 % on the evaluation dataset after epoch epoch = 5
+accuracy=91.18942731277532 % on the evaluation dataset after epoch epoch = 5
 losses after epoch = 6
 f{epoch=}: {train_ppl=} {train_epoch_loss=} {eval_ppl=} {eval_epoch_loss=}
 validation accuracy: 
-accuracy=88.10572687224669 % on the evaluation dataset after epoch epoch = 6
+accuracy=94.7136563876652 % on the evaluation dataset after epoch epoch = 6
 losses after epoch = 7
 f{epoch=}: {train_ppl=} {train_epoch_loss=} {eval_ppl=} {eval_epoch_loss=}
 validation accuracy: 
-accuracy=91.18942731277532 % on the evaluation dataset after epoch epoch = 7
+accuracy=96.91629955947137 % on the evaluation dataset after epoch epoch = 7
 losses after epoch = 8
 f{epoch=}: {train_ppl=} {train_epoch_loss=} {eval_ppl=} {eval_epoch_loss=}
 validation accuracy: 
-accuracy=94.27312775330397 % on the evaluation dataset after epoch epoch = 8
+accuracy=92.95154185022027 % on the evaluation dataset after epoch epoch = 8
 losses after epoch = 9
 f{epoch=}: {train_ppl=} {train_epoch_loss=} {eval_ppl=} {eval_epoch_loss=}
 validation accuracy: 
-accuracy=92.51101321585902 % on the evaluation dataset after epoch epoch = 9
+accuracy=97.3568281938326 % on the evaluation dataset after epoch epoch = 9
 
 ===== generation =====
-outputs: tensor([[    0,   259, 32588,     1]])
-tokenizer batch decode: ['negative']
+outputs: tensor([[    0, 59006,     1]])
+tokenizer batch decode: ['neutral']
